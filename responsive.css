@@ -1,0 +1,290 @@
+@media (max-width:1520px) {
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:1200px){
+    .about-item {
+        padding: 0 20px;
+        margin: 50px 0;
+    }
+    .footer {
+        background: #000;
+        padding: 20px 35px;
+    }
+    .service {
+        background: #fffaf0;
+        padding: 80px 10px;
+    }
+    .service-1 {
+        text-align: center;
+        width: 31.3%;
+        border: 2px dotted #606060;
+        box-sizing: border-box;
+        padding: 33px 46px;
+        border-radius: 50px 0;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .service-1 h1 {
+        font-size: 25px;
+    }
+}
+@media (max-width:1024px) {
+    .about-img img {
+        width: 273px;
+    }
+    .about-content h3 {
+        font-size: 23px;
+        margin: 12px 0;
+    }
+    .about-content h1 {
+        font-size: 26px;
+    }
+    .about-content p {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .service-1 {
+        text-align: center;
+        width: 31.3%;
+        border: 2px dotted #606060;
+        box-sizing: border-box;
+        padding: 33px 21px;
+        border-radius: 50px 0;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .service-1 p {
+        font-size: 16px;
+        margin-top: 11px;
+    }
+    .service-1 span {
+        font-size: 29px;
+        color: blue;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        border: 2px solid blue;
+        line-height: 50px;
+        border-radius: 20px 0;
+        margin-bottom: 15px;
+    }
+    .service-1 h1 {
+        font-size: 23px;
+    }
+}
+@media (max-width:992px){
+    .logo {
+        width: 100%;
+        text-align: center;
+        line-height: 0;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 23px;
+        padding: 15px;
+        display: inline-block;
+        border-left: none;
+        line-height: 27px;
+        transition: .5s;
+    }
+    .banner {
+        background-image: url(./intro-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 120px 0;
+        text-align: center;
+    }
+    .about-content p {
+        font-size: 17px;
+        line-height: 38px;
+    }
+    .service {
+        background: #fffaf0;
+        padding: 56px 10px;
+    }
+    .about-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-img img{
+        width: 100%;
+        text-align: center;
+    }
+    .about-img img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .about-content {
+        width: 100%;
+        text-align: center;
+    }
+    .about-item {
+        padding: 0 20px;
+        margin: 30px 0;
+    }
+}
+@media (max-width:768px){
+    .banner h4 {
+        color: blue;
+        font-size: 27px;
+        margin-bottom: 17px;
+    }
+    .banner h2 {
+        font-size: 30px;
+        color: blue;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        padding: 12px;
+        display: inline-block;
+        border-left: none;
+        line-height: 26px;
+        transition: .5s;
+    }
+    .banner {
+        background-image: url(./intro-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 100px 0;
+        text-align: center;
+    }
+    .service-1 {
+        text-align: center;
+        width: 100%;
+        border: 2px dotted #606060;
+        box-sizing: border-box;
+        padding: 31px 10px;
+        border-radius: 50px 0;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .service {
+        background: #fffaf0;
+        padding: 32px 10px;
+    }
+    .service-1 h1 {
+        font-size: 30px;
+    }
+    .service-1 p {
+        font-size: 20px;
+        margin-top: 11px;
+    }
+    .footer-text {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-icon {
+        width: 100%;
+        text-align: center;
+        margin-top: 16px;
+    }
+    .footer-text h4 {
+        font-size: 28px;
+        color: #fff;
+    }
+}
+@media (max-width:568px){
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        padding: 9px;
+        display: inline-block;
+        border-left: none;
+        line-height: 24px;
+        transition: .5s;
+    }
+    .logo a img {
+        width: 127px;
+    }
+    .banner h2 {
+        font-size: 22px;
+        color: blue;
+    }
+    .banner h4 {
+        color: blue;
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+    .banner {
+        background-image: url(./intro-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 78px 0;
+        text-align: center;
+    }
+    .about-img img {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .about-content h1 {
+        font-size: 22px;
+    }
+    .about-content h3 {
+        font-size: 21px;
+        margin: 4px 0;
+    }
+    .about-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .service-1 h1 {
+        font-size: 25px;
+    }
+    .footer-text h4 {
+        font-size: 23px;
+        color: #fff;
+    }
+}
+@media (max-width:400px){
+    .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        padding: 6px;
+        display: inline-block;
+        border-left: none;
+        line-height: 20px;
+        transition: .5s;
+    }
+    .banner h2 {
+        font-size: 19px;
+        color: blue;
+    }
+    .banner h4 {
+        color: blue;
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+    .banner {
+        background-image: url(./intro-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 70px 0;
+        text-align: center;
+    }
+    .service-1 p {
+        font-size: 16px;
+        margin-top: 11px;
+    }
+    .service-1 h1 {
+        font-size: 20px;
+    }
+    .footer-text h4 {
+        font-size: 19px;
+        color: #fff;
+    }
+}
